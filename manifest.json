@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Gamal Asela Verifying",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "windows",
+    "notifications",
+    "management",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "<all_urls>",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequestFeedback"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
